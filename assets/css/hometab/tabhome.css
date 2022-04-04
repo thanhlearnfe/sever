@@ -1,0 +1,207 @@
+.navbar-container {
+    padding: 10px 15px;
+}
+.navbar-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.dots {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* padding-left: 10px; */
+}
+.logo .bi{
+    color:#ffc876;
+    font-size: 45px;
+    margin-right: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-weight: 500;
+}
+.nav-items{
+    margin-bottom: 15px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    cursor: pointer;
+}
+.nav-item p{
+    font-size: 12px;
+}
+.nav-item.active{
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.nav-item i{
+    padding: 10px 5px;
+    padding-right: 15px;
+}
+.avatar{
+    width: 30%;
+    border-radius: 50%;
+}
+.footer-navbar {
+    display: flex;
+    align-items: center;
+}
+.header__body-content {
+    display: flex;
+    margin-bottom: 15px;
+}
+.prev-next {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search{
+    width: 85%;
+    position: relative;
+}
+.search .bi{
+    position: absolute;
+    left: 25px;
+    font-size: 18px;
+    top: 5px;
+}
+.search input{
+    width: 95%;
+    margin-left: 14px;
+    padding: 10px;
+    padding-left: 35px;
+    border-radius: 18px;
+    border: navy        ;
+}
+.banner-heading{
+    display: flex;
+    align-items: center;
+}
+.banner-trending {
+    font-size: 23px;
+    font-weight: 500;
+    color: #000;
+}
+.banner__body-content {
+    margin-left: 18px;
+}
+.banner-img {
+    height: 150px;
+    padding: 10px 20px;
+    border-radius: 0.6rem;
+    position: relative;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0)), url(/assets/img/banner.jpg) no-repeat center center/cover;
+}
+.banner-img h2{
+    color: #000;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+.banner-text-right {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 5px;
+}
+.banner-button span {
+    padding: 5px 20px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    font-size: 10px;
+}
+.shortcuts {
+    margin-top: 10px;
+}
+.shortcuts-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+.shortcuts-item{
+    display:flex;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #fff;
+    padding: 9px 12px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.shortcuts-item img{
+    width: 15px;
+    height: 15px;
+}
+.shortcuts-heading {
+    font-weight: 700;
+    color: #000;
+}
+.farArtist-heading{
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+}
+img.img-singer {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.farArtist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+p.info-singer-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+.farArtist-item {
+    display: flex;
+    justify-content: space-between;
+}
+.info-singers {
+    display: flex;
+}
+.info-singer {
+    margin-left: 10px;
+}
+.img-hightlight img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-hightlight {
+    margin-top: 15px;
+    padding: 10px;
+    background: #ffff;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 15px;
+}
+.text-fill{
+    color: #000;
+    font-weight: 500;
+}
+.torisetsu-name{
+   
+}
+

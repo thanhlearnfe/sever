@@ -1,0 +1,69 @@
+.button-modal-nav{
+    display: none;
+}
+.button-remove-nav{
+    display: none;
+}
+.button-modal-intro {
+    display: none;
+}
+.remove-modal-intro{
+    display: none;
+}
+@media(max-width:790px) {
+    .navbar{
+        display: none;
+    }
+    .navbar.active {
+        width: 240px;
+        position: fixed;
+        z-index: 2;
+        background: #fff;
+        height: 100vh;
+        display: block;
+    }
+    .tab-content.active {
+        display: flex;
+        width: 100%;
+    }
+    .body-content {
+        width: 100%;
+    }
+    .introduce{
+        display: none;
+    }
+    .introduce.active {
+        width: 240px;
+        padding: 0 15px;
+        background-color: #e7e8f3;
+        position: fixed;
+        right: 0;
+        z-index: 2;
+        height: 100vh;
+       display:block;
+    }
+    .button-modal-nav{
+        display: block;
+        cursor: pointer;
+    }
+    .none-remove-nav{
+        display: none;
+    }
+    .button-remove-nav{
+        display: block;
+        cursor: pointer;
+    }
+    .header__body-content{
+        align-items: center;
+    }
+    .button-modal-intro {
+        display: block;
+    }
+    .shortcuts-heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    .remove-modal-intro{
+        display: block;
+    }
+}
